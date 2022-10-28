@@ -52,7 +52,7 @@ export const LeftSide = ({
   <React.Fragment>
    <section className="left-side">
     <div className="custom-icon">
-     <img src="src/assets/alura-icon.svg"></img>
+     <img src="/assets/images/alura-icon.svg"></img>
     </div>
     <div className="custom-input">
      <textarea
@@ -63,7 +63,7 @@ export const LeftSide = ({
     </div>
     <div className="custom-section">
      <div className="custom-info">
-      <img src="src/assets/info-icon.svg"></img>
+      <img src="/assets/images/info-icon.svg"></img>
       <span>Solo letras minúsculas y sin acentos.</span>
      </div>
      <div className="custom-buttons">

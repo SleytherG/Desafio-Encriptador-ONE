@@ -13,7 +13,7 @@ export const RightSide = ({ text }) => {
     <section className="card">
      <div className="card-without-text">
       <div className="card-img">
-       <img src="src/assets/person.svg"></img>
+       <img src="/assets/images/person.svg"></img>
       </div>
       <div className="card-title">
        <p>Ningún mensaje fue encontrado</p>

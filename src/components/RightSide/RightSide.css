@@ -1,0 +1,156 @@
+.card {
+ background-color: #fff;
+ height: 940px;
+ max-width: 30%;
+ box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+ border-radius: 2rem;
+}
+
+.card-without-text {
+ height: 100%;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+}
+
+.card-with-text {
+ height: 100%;
+ padding: 1.5rem;
+}
+
+.input-text {
+ height: 90%;
+}
+
+.input-text textarea {
+ height: 100%;
+ font-size: 1.5rem;
+ border: none;
+ resize: none;
+ background: none;
+ color: #495057;
+ font-family: inherit;
+ /* word-break: break-all; */
+}
+
+.input-text textarea:focus {
+ outline: none;
+}
+.card-title {
+ margin-top: 1.5rem;
+ text-align: center;
+ width: 65%;
+}
+
+.card-title p {
+ font-size: 1.5rem;
+ font-weight: bold;
+}
+.card-subtitle {
+ margin-top: 1.5rem;
+ width: 65%;
+ text-align: center;
+}
+.card-subtitle span {
+ font-size: 1rem;
+ font-weight: 400;
+}
+
+.custom-button button {
+ width: 280px;
+ height: 67px;
+ background: none;
+ font-size: 1rem;
+ border: 1px solid #0a3871;
+ border-radius: 1.5rem;
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 1023px) {
+ .card {
+  margin-top: 2rem;
+  max-width: 100%;
+  min-height: 10rem;
+  height: 10rem;
+  max-height: 25rem;
+ }
+ .card.with-text {
+  margin-top: 2rem;
+  max-width: 100%;
+  min-height: 10rem;
+  height: 20rem;
+  max-height: 25rem;
+ }
+
+ .card-img {
+  display: none;
+ }
+
+ .card-title {
+  margin: 0;
+  width: 70%;
+ }
+
+ .card-subtitle {
+  margin-top: 1rem;
+  width: 70%;
+ }
+
+ .input-text {
+  height: 80%;
+ }
+
+ .input-text textarea {
+  width: 100%;
+ }
+
+ .custom-button button {
+  width: 100%;
+ }
+}
+
+/* Phones */
+@media (min-width: 280px) and (max-width: 767px) {
+ .card {
+  margin-top: 2rem;
+  max-width: 100%;
+  min-height: 10rem;
+  height: 13rem;
+  max-height: 25rem;
+ }
+ .card.with-text {
+  margin-top: 2rem;
+  max-width: 100%;
+  min-height: 10rem;
+  height: 25rem;
+  max-height: 25rem;
+ }
+ .card-img {
+  display: none;
+ }
+
+ .card-title {
+  margin: 0;
+  width: 70%;
+ }
+
+ .card-subtitle {
+  margin-top: 1rem;
+  width: 70%;
+ }
+
+ .input-text {
+  height: 80%;
+ }
+
+ .input-text textarea {
+  width: 100%;
+  word-break: break-all;
+ }
+
+ .custom-button button {
+  width: 100%;
+  margin-top: 1rem;
+ }
+}
